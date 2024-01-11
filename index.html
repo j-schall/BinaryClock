@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>BinaryVisualizer</title>
+    <style>
+        @font-face {
+            font-family: ibmPlex;
+            src: url("IBMPlexMono-Regular.ttf");
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:#232D3F;
+            font-family: 'ibmPlex', monospace;
+        }
+        tr {
+            color: #008170;
+            font-size: 100px;
+            text-align: right;
+        }
+        #binary-table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="binary-table" border="1">
+        <tr id="hours"></tr>
+        <tr id="minutes"></tr>
+        <tr id="seconds"></tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
